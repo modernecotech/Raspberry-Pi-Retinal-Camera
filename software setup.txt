@@ -1,0 +1,20 @@
+Basic installation of software.
+
+raspbian image on sd card
+
+copy config.txt to boot partition
+
+copy retcam.py to /home/pi
+sudo nano /etc/xdg/lxsession/LXDE/autostart
+@sudo python /home/pi/retcam.py
+
+copy rtc-pi to /home/pi
+sudo rtc-pi YYYYMMDDhhmmss
+sudo nano /etc/
+
+copy pydicom and install using:
+sudo python setup.py install
+
+sudo apt-get install gdcm-tools
+
+
